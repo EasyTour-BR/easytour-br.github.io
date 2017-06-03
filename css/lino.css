@@ -1,0 +1,22 @@
+* {
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+#topo {
+	height: 165px;
+	background-color: #859e32;
+}
+
+#topo1 {
+	border: 1px solid;
+	border-color: red;
+	height: 165px;	
+}
+
+#topo2 {
+	border: 1px solid;
+	border-color: red;
+	height: 165px;	
+}
