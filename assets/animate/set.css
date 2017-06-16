@@ -611,10 +611,10 @@ figure.effect-oscar figcaption {
 
 figure.effect-oscar figcaption::before {
 	position: absolute;
-	top: 30px;
-	right: 30px;
-	bottom: 30px;
-	left: 30px;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	left: 10px;
 	border: 1px solid #fff;
 	content: '';
 }
@@ -635,6 +635,7 @@ figure.effect-oscar p {
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: scale(0);
 	transform: scale(0);
+	text-align: center;
 }
 
 figure.effect-oscar:hover h2 {
