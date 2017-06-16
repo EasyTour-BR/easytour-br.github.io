@@ -1,301 +1,369 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br">top
 
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Easy Tour Brasil</title>
-
-	<meta name="description" content="Easy Tour Brasil" />
-	<meta name="keywords" content="Easy Tour Brasil - Viagens, Passeios, Natal" />	
-
-	<!-- Fonte selecionado no site do Google -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,500,700" rel="stylesheet" type="text/css" />
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-	<link href="css/estilo.css" rel="stylesheet">
-    <link href="-css/full-slider.css" rel="stylesheet">	
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	<title>Easy Tour Brasil - Viaje e tenha sempre novas experiências</title>
 	
+	<meta name="description" content="Easy Tour Brasil" />
+	<meta name="keywords" content="Easy Tour Brasil - Viagens, Passeios, Natal" />		
+
+
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css" />
+
+    <link rel="stylesheet" href="assets/animate/animate.css" />
+    <link rel="stylesheet" href="assets/animate/set.css" />
+    <link rel="stylesheet" href="assets/estilo.css">
+    <link rel="stylesheet" href="assets/gallery/blueimp-gallery.min.css">
+
+    <link rel="shortcut icon" href="images/favicon-easy-tour.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon-easy-tour.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="assets/style.css">
+
   </head>
+
+  <body data-offset="100">
+  <div class="topbar animated fadeInLeftBig"></div>
+
   
-  <!-- data-offset - Marca o tamanho do Menu para a parada da Animação -->
-  <body id="inicio" data-spy="scroll" data-target="#menu-navegacao" data-offset="160">
   
-  <!-- Menu início -->
-		  <nav class="navbar navbar-default navbar-fixed-top topo">
+  
+  
+<!-- Header Starts -->
+<div class="navbar-wrapper">
+	<div class="container">
+
+		<div class="navbar navbar-default navbar-fixed-top topo" role="navigation" id="top-nav">
 			<div class="container">
-					
 				<div class="navbar-header">
-					<!-- Logo -->
-					<a class="navbar-brand text-left" href="#inicio"><img class="img-responsive" src="imagens/logo-easy-tour-brasil.png" alt="Easy Tour Brasil" /></a>
+				  
+				  <!-- Logo Starts -->
+				  <a class="navbar-brand" href="#home"><img src="images/logo.png" alt="logo"></a>
+				  <!-- #Logo Ends -->
 
-					<!-- Transforma o menu em sandwich -->
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-navegacao">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
+
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+
 				</div>
-					
-				<!-- Menu principal -->
-				<div class="collapse navbar-collapse" id="menu-navegacao">
-					<ul class="nav navbar-nav navbar-right distanciaMenuTopo">
-						<li><a href="#quemsomos">EasyTour</a></li>
-						<li><a href="#servicos">Roteiros</a></li>
-						<li><a href="#contato">Contato</a></li>								
-						<li><a href="app/">Login</a></li>				
-					</ul>
+
+				<!-- Nav Starts -->
+				<div class="navbar-collapse  collapse">
+				  <ul class="nav navbar-nav navbar-right scroll">
+					 <li class="active"><a href="#home">Início</a></li>
+					 <li ><a href="#about">Sobre</a></li>
+					 <li ><a href="#works">Roteiros</a></li>
+					 <li ><a href="#partners">Parceiros</a></li>
+					 <li ><a href="#contact">Contato</a></li>                 
+				  </ul>
 				</div>
-				
-				<br /><br />
-				
+				<!-- #Nav Ends -->
+
 			</div>
-		  </nav>
-  <!-- Menu fim -->
-  
-  
-  
-  
-  
-  <!-- Slider início -->
-    <!-- Full Page Image Background Carousel Header -->
-    <header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
+		</div>
 
-        <!-- Wrapper for Slides -->
-        <div class="carousel-inner bg-slider">
-			<div class="item active">
-                <div class="fll"><img src="imagens/banner/fto-forte-dos-reis-magos.png" class="img-responsive center-block" /></div>
-			    <div class="carousel-caption">
-				  <h1>O Forte dos Reis Magos</h1>
-				  <p>É uma edificação militar histórica localizada na cidade do Natal, no estado brasileiro do Rio Grande do Norte.</p>
-			    </div>				
-            </div>
-            <div class="item">
-                <div class="fll"><img src="imagens/banner/fto-praia-de-ponta-negra.png" class="img-responsive center-block" /></div>
-			    <div class="carousel-caption">
-				  <h1>Praia de Ponta Negra</h1>
-				  <p>A praia de Ponta Negra tem cerca de 4 km de extensão. No extremo sul fica o Morro do Careca, o ponto turístico mais famoso de Natal.</p>
-			    </div>				
-            </div>
-            <div class="item">
-                <div class="fll"><img src="imagens/banner/fto-praia-de-jenipabu.png" class="img-responsive center-block" /></div>
-			    <div class="carousel-caption">
-			   	  <h1>Praia de Jenipbu</h1>
-				  <p>Um grande complexo de dunas, uma lagoa e uma área de proteção ambiental localizados no município de Extremoz.</p>
-			    </div>				
+	</div>
+</div>
+<!-- #Header Starts -->
+
+
+
+
+
+<div id="home">
+<!-- Slider Starts -->
+<div id="myCarousel" class="carousel slide banner-slider animated flipInX" data-ride="carousel">     
+      <div class="carousel-inner">
+        <!-- Item 1 -->
+        <div class="item active">
+          <img src="images/back1.jpg" alt="banner">          
+            <div class="carousel-caption">
+            	<div class="caption-wrapper">
+            		<div class="caption-info">
+              		<h1 class="animated bounceInLeft">Roteiro Sol e Mar</h1>
+              		<p class="animated bounceInRight textoBanner">As mais belas praias do Rio Grande do Norte.</p>
+              		<div class="scroll animatedeInUp"><a href="#works" class="btn btn-default"><i class="fa fa-flask"></i>  Roteiro completo</a> <a href="http://www.easytourbrasil.com.br/app/" class="btn btn-default"><i class="fa fa-paper-plane-o"></i> Iniciar Roteiro</a></div>
+              		</div>
+              	</div>
             </div>
         </div>
+        <!-- #Item 1 -->
 
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
+        <!-- Item 2 -->
+        <div class="item">
+          <img src="images/back2.jpg" alt="banner">          
+             <div class="carousel-caption">
+            	<div class="caption-wrapper">
+            		<div class="caption-info">
+                  <h1 class="animated bounceInLeft">Roteiro Cultural</h1>
+                  <p class="animated bounceInRight textoBanner">Atrações imperdíveis para quem curte história.</p>
+                  <div class="scroll animated fadeInUp"><a href="#works" class="btn btn-default"><i class="fa fa-flask"></i>  Roteiro completo</a> <a href="http://www.easytourbrasil.com.br/app/" class="btn btn-default"><i class="fa fa-paper-plane-o"></i> Iniciar Roteiro</a></div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!-- #Item 2 -->
 
-    </header>
-  <!-- Slider fim -->	
-  
- 
+        <!-- Item 3 -->
+        <div class="item">
+          <img src="images/back3.jpg" alt="banner">          
+             <div class="carousel-caption">
+            	<div class="caption-wrapper">
+            		<div class="caption-info">
+                  <h1 class="animated bounceInLeft">Roteiro Religioso</h1>
+                  <p class="animated bounceInRight textoBanner">Viaje motivado pela fé.</p>
+                  <div class="scroll animated fadeInUp"><a href="#works" class="btn btn-default"><i class="fa fa-flask"></i>  Roteiro completo</a> <a href="http://www.easytourbrasil.com.br/app/" class="btn btn-default"><i class="fa fa-paper-plane-o"></i> Iniciar Roteiro</a></div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!-- #Item 4 -->
 
- 
- 
-  <!-- Quem somos início -->
-   <section id="quemsomos" class="div_quemsomos">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<h3>Olá! Serei o seu Guia de Turismo Virtual. </h3>
-				<br />
-				
-			</div>	
-		</div>
-		<div class="row contato">
-			<div class="col-md-8 form-group text-justify">
-				<p class="bg-success aviso">Dificuldades em identificar destinos que suprem às necessidades das diferentes faixas etárias da familia?</p>
-				<p class="bg-success aviso">Faltam informações e / ou as informações estão incorretas sobre o lugar, atrativos, localização, horários?</p>
-				<br />
-				<p class="textoNegritoVerde">O Easy Tour Brasil é uma solução voltada para o turismo, com o objetivo de melhorar a experiência vivenciada pelo turista ao visitar uma nova cidade, oferecendo Roteiros turísticos completos e interativos, com uma gama de atividades, produtos e serviços sugeridos de acordo com a sua geolocalização.</p>
-			</div>
-			<div class="col-md-4 text-right">
-				<img src="imagens/personagem.png" class="img-responsive center-block" alt="Garoto propaganda Easy Tour Brasil" />
-			</div>			
-		</div>	
-	</div>   
-  </section> 
-  <!-- Quem somos fim -->
-
-  
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="icon-prev"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="icon-next"></span></a>
+    </div>
+<!-- #Slider Ends -->
+</div>
 
 
-  
-  <!-- Serviços início -->
-  <section id="servicos" class="div_servicos">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<h3>Planeje a sua viagem com antecedência. </h3>
-				<br />
-			</div>	
-		</div>
-		<div class="row servicos">
-			<div class="list-group col-md-8 text-justify">
-			    <a href="#" class="list-group-item list-group-item-info aviso" ><b>1 -</b> Planeje a sua viagem com antecedência.</a>
-				<a href="#" class="list-group-item list-group-item-info aviso" ><b>2 -</b> Escolha um Roteiro e permita-se ser guiado.</a>
-				<a href="#" class="list-group-item list-group-item-info aviso" ><b>3 -</b> Produtos e serviços? Selecionamos os melhores para você.</a>
-				<a href="#" class="list-group-item list-group-item-info aviso" ><b>4 -</b> Tudo pronto! Vamos começar?</a>
-			</div>
-			<div class="col-md-4 text-right">
-				<img src="imagens/app-01.png" class="img-responsive center-block" />
-			</div>			
-		</div>	
-	</div>   
-  </section>
-  <!-- Serviços fim -->	
-  
-  
-  
-    
- 
-  
- 
 
- 
-  <!-- Contato início -->
-   <section id="contato" class="div_contato">
+<!-- Cirlce Starts -->
+<section id="about">
 	<div class="container">
 	
-		<div class="row contato">
+		<h3 class="text-center wowload fadeInUp">Olá! Serei o seu Guia de Turismo Virtual.</h3>
+
 		<div class="row">
-			<div class="col-md-12 text-center">
-				<h3>Dúvidas? Sugestões? Ajude o Easy Tour Brasil.</h3>
-				<br />
-			</div>	
+			<div class="col-sm-6 wowload fadeInLeft">
+				<p>Dificuldades em identificar destinos que suprem às necessidades das diferentes faixas etárias da familia?</p>
+				<p>Faltam informações e / ou as informações estão incorretas sobre o lugar, atrativos, localização, horários?</p>
+				<p>O Easy Tour Brasil é uma solução voltada para o turismo, com o objetivo de melhorar a experiência vivenciada pelo turista ao visitar uma nova cidade, oferecendo Roteiros turísticos completos e interativos, com uma gama de atividades, produtos e serviços sugeridos de acordo com a sua geolocalização.</p>
+				<p><b>1 -</b> Planeje a sua viagem com antecedência. <br /><b>2 -</b> Escolha um Roteiro e permita-se ser guiado. <br /> <b>3 -</b> Produtos e serviços? Selecionamos os melhores para você.</p>
+			</div>
+			<div class="col-sm-6 wowload fadeInRight">
+				<img src="imagens/personagem.png" class="img-responsive center-block" alt="Garoto propaganda Easy Tour Brasil" />
+			</div>
 		</div>
-			<div class="col-md-12">
-				<form action="">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="form-group">
-								<input type="text" class="form-control input-lg" placeholder="Qual o seu nome?" required />
-							</div>	
-							<div class="form-group">
-								<input type="text" class="form-control input-lg" placeholder="Qual a sua cidade/estado?" required />
-							</div>							
-							<div class="form-group">
-								<input type="tel" class="form-control input-lg" placeholder="Qual o seu telefone?" required />
-							</div>	
-							<div class="form-group">
-								<input type="email" class="form-control input-lg" placeholder="Qual o seu e-mail?" required />
-							</div>
-						</div>
-						<div class="col-md-6">
-							<textarea class="form-control input-lg" placeholder="Qual a sua mensagem?" required ></textarea>
-							<div class="row">
-								<div class="col-md-12 text-right">
-									<button type="submit" class="btn btn-success btn-lg">Enviar</button>
-								</div>
-							</div>
-						</div>
+	
+	</div>
+</section> 
+<!-- #Cirlce Ends -->
+
+
+
+
+
+<!-- works -->
+<section id="works">
+	<div class="container clearfix grid">
+
+		<h3 class="text-center wowload fadeInUp">Roteiros mais visitados</h3>
+		<p>Todos os Roteiros do Easy Tour Brasil são desenvolvidos por uma equipe técinca credenciada pela Embratur, planejados para que você tenha a melhor experiência ao visitar uma nova cidade.</p>
+	  
+		<figure class="effect-oscar  wowload fadeInUp">
+			<img src="images/portfolio/1.jpg" alt="img01"/>
+			<figcaption>
+				<h2>Sol e Mar</h2>
+				<p>Viaje e tenha sempre novas experiências<br>
+				<a href="images/portfolio/1.jpg" title="1" data-gallery>Veja mais</a></p>            
+			</figcaption>
+		</figure>
+		 <figure class="effect-oscar  wowload fadeInUp">
+			<img src="images/portfolio/2.jpg" alt="img01"/>
+			<figcaption>
+				<h2>Cultural</h2>
+				<p>Viaje e tenha sempre novas experiências<br>
+				<a href="images/portfolio/2.jpg" title="1" data-gallery>Veja mais</a></p>            
+			</figcaption>
+		</figure>
+		 <figure class="effect-oscar  wowload fadeInUp">
+			<img src="images/portfolio/3.jpg" alt="img01"/>
+			<figcaption>
+				<h2>Aventura</h2>
+				<p>Viaje e tenha sempre novas experiências<br>
+				<a href="images/portfolio/3.jpg" title="1" data-gallery>Veja mais</a></p>            
+			</figcaption>
+		</figure>
+		 <figure class="effect-oscar  wowload fadeInUp">
+			<img src="images/portfolio/4.jpg" alt="img01"/>
+			<figcaption>
+				<h2>Religioso</h2>
+				<p>Viaje e tenha sempre novas experiências<br>
+				<a href="images/portfolio/4.jpg" title="1" data-gallery>Veja mais</a></p>            
+			</figcaption>
+		</figure>
+		 <figure class="effect-oscar  wowload fadeInUp">
+			<img src="images/portfolio/5.jpg" alt="img01"/>
+			<figcaption>
+				<h2>Gastronômico</h2>
+				<p>Viaje e tenha sempre novas experiências<br>
+				<a href="images/portfolio/5.jpg" title="1" data-gallery>Veja mais</a></p>            
+			</figcaption>
+		</figure>
+		 
+		 <figure class="effect-oscar  wowload fadeInUp">
+			<img src="images/portfolio/6.jpg" alt="img01"/>
+			<figcaption>
+				<h2>Kids</h2>
+				<p>Viaje e tenha sempre novas experiências<br>
+				<a href="images/portfolio/6.jpg" title="1" data-gallery>Veja mais</a></p>            
+			</figcaption>
+		</figure>
+		<figure class="effect-oscar  wowload fadeInUp">
+			<img src="images/portfolio/7.jpg" alt="img01"/>
+			<figcaption>
+				<h2>Negócios</h2>
+				<p>Viaje e tenha sempre novas experiências<br>
+				<a href="images/portfolio/7.jpg" title="1" data-gallery>Veja mais</a></p>            
+			</figcaption>
+		</figure>
+		<figure class="effect-oscar  wowload fadeInUp">
+			<img src="images/portfolio/8.jpg" alt="img01"/>
+			<figcaption>
+				<h2>Eventos</h2>
+				<p>Viaje e tenha sempre novas experiências<br>
+				<a href="images/portfolio/8.jpg" title="1" data-gallery>Veja mais</a></p>            
+			</figcaption>
+		</figure>
+
+	</div>
+</section> 
+<!-- works ends-->
+
+
+
+
+
+<!-- partners Starts -->
+<section id="partners">
+	<div class="container clearfix grid">
+	
+		<h3 class="text-center wowload fadeInUp">Nossos parceiros</h3>  
+
+		<div class="clearfix center-block">
+			<div class="col-sm-12 partners  wowload fadeInLeft">
+				<div class="col-md-3">
+					<img class="img-responsive grayscale center-block" src="images/partners/logo-ifrn.png"  alt="IFRN">
+				</div>	
+				<div class="col-md-3">
+					<img class="img-responsive grayscale center-block" src="images/partners/logo-sebrae.png"  alt="SEBRAE">
+				</div>	
+				<div class="col-md-3">
+					<img class="img-responsive grayscale center-block" src="images/partners/logo-hotel-de-projetos.png"  alt="Hotel de Projetos">						
+				</div>					
+				<div class="col-md-3">
+					<img class="img-responsive grayscale center-block" src="images/partners/logo-itnc.png"  alt="ITNC">		
+				</div>	
+			</div>
+		</div>
+
+	</div>
+<!-- partners ends-->
+	
+<!-- About Starts -->
+	<h3 class="text-center wowload fadeInUp">Nossos números</h3>  
+	<div class="highlight-info">
+		<div class="overlay spacer">
+			<div class="container">
+				<div class="row text-center  wowload fadeInDownBig">
+					<div class="col-sm-2 col-xs-6">
+						<i class="fa fa-smile-o  fa-5x"></i><h4>5 Usuários</h4>
 					</div>
+					<div class="col-sm-2 col-xs-6">
+						<i class="fa fa-map-marker fa-5x"></i><h4>167 Cidades</h4>
+					</div>				
+					<div class="col-sm-4 col-xs-6">
+						<i class="fa fa-cloud-download  fa-5x"></i><h4>454 Pontos turísticos</h4>
+					</div>
+					<div class="col-sm-2 col-xs-6">
+						<i class="fa fa-rocket  fa-5x"></i><h4>1 Roteiros</h4>
+					</div>
+					<div class="col-sm-2 col-xs-6">
+						<i class="fa fa-map-marker fa-5x"></i><h4>55 Parceiros</h4>
+					</div>				
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- About Ends -->
+</section> 
+
+
+
+
+
+<!--Contact Starts-->
+<section id="contact">
+	<div class="container contactform center">
+
+		<h3 class="text-center wowload fadeInUp">Dúvidas? Sugestões? Ajude o Easy Tour Brasil a ficar cada vez melhor.</h3>  
+
+		<div class="row wowload fadeInLeftBig">      
+			<div class="col-sm-12">      
+				<form action="">
+					<input type="text" placeholder="Nome" required>
+					<input type="text" placeholder="E-mail" required>
+					<textarea rows="10" placeholder="Mensagem" required></textarea>
+					<button class="btn btn-primary btn-lg"><i class="fa fa-paper-plane"></i> Enviar</button>
 				</form>
 			</div>
 		</div>
-		
-	</div>   
-  </section> 
-  <!-- Contato fim -->	
-  
-  
- 
+			
+	</div>
+</section> 
+<!--Contact Ends-->
 
- 
-  <!-- Rodapé -->
-   <section id="footer">
-	<div class="container">
-		<br />
-		<div class="row">
-			<div class="col-md-12">   
-				<div class="col-md-10">
-					<p class="textoCopy">© Copyright 2017 Easy Tour Brasil</p>
-				</div>
-				<div class="col-md-2 text-right">
-					<a href="http://www.linusweb.com.br/" target="_blank"><img src="imagens/logo-linus.png" /></a>
-				</div>
-			</div>
-		</div>	
-		
-	</div>	
-   </section>
-  <!-- Rodapé fim -->	
 
- 
- 
-   
-   
-   
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-	<script src="js/lino.js"></script>
+
+
+
+<!-- Footer Starts -->
+<div class="footer">
+	<p>Copyright 2017 - Easy Tour Brasil - All rights reserved.
+</div>
+<!-- # Footer Ends -->
+<a href="#home" class="gototop "><i class="fa fa-angle-up  fa-3x"></i></a>
+
+
+
+
+
+<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title">title</h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->    
+</div>
+
+
+	<!-- jquery -->
+	<script src="assets/jquery.js"></script>
+	<!-- wow script -->
+	<script src="assets/wow/wow.min.js"></script>
+	<!-- boostrap -->
+	<script src="assets/bootstrap/js/bootstrap.js" type="text/javascript" ></script>
+	<!-- jquery mobile -->
+	<script src="assets/mobile/touchSwipe.min.js"></script>
+	<script src="assets/respond/respond.js"></script>
+	<!-- gallery -->
+	<script src="assets/gallery/jquery.blueimp-gallery.min.js"></script>
+	<!-- custom script -->
+	<script src="assets/script.js"></script>
+
 	
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-	
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
-
-
-	<script type="text/javascript">
-	  jQuery(document).ready(function($) {
- 
-        $('#myCarouselServicos, #myCarouselEscritorios, #myCarouselEsporte-fino, #myCarouselFestas-e-eventos, #myCarouselGestantes, #myCarouselHospitais, #myCarouselHotelaria, #myCarouselIgrejas-e-corais, #myCarouselPersonalizados-kids, #myCarouselPijamas, #myCarouselRecepcao-e-administracao, #myCarouselRestaurantes, #myCarouselAcessorios, #myCarouselBolsas, #myCarouselCalcados').carousel({
-                interval: 5000
-        });
- 
-        //Handles the carousel thumbnails
-        $('[id^=carousel-selector-]').click(function () {
-        var id_selector = $(this).attr("id");
-        try {
-            var id = /-(\d+)$/.exec(id_selector)[1];
-            console.log(id_selector, id);
-            jQuery('#myCarouselServicos, #myCarouselEscritorios, #myCarouselEsporte-fino, #myCarouselFestas-e-eventos, #myCarouselGestantes, #myCarouselHospitais, #myCarouselHotelaria, #myCarouselIgrejas-e-corais, #myCarouselPersonalizados-kids, #myCarouselPijamas, #myCarouselRecepcao-e-administracao, #myCarouselRestaurantes, #myCarouselAcessorios, #myCarouselBolsas, #myCarouselCalcados').carousel(parseInt(id));
-        } catch (e) {
-            console.log('Regex failed!', e);
-        }
-		});
-        // When the carousel slides, auto update the text
-        $('#myCarousel').on('slid.bs.carousel', function (e) {
-                 var id = $('.item.active').data('slide-number');
-                $('#carousel-text').html($('#slide-content-'+id).html());
-        });
-		});
-	</script>
-
-
   </body>
-  
 </html>
