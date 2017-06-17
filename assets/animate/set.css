@@ -26,10 +26,11 @@
 .grid figure figcaption {
 	padding: 2em;
 	color: #fff;
-	text-transform: uppercase;
+	-text-transform: uppercase;
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
+    text-shadow: 0px 2px 3px #000000;  /* --------------------------->  SOMBRA DO H1 BANNER  */	
 }
 
 .grid figure figcaption::before,
@@ -1137,4 +1138,4 @@ figure.effect-chico:hover p {
 
 @media (max-width: 639px) {
 	.grid figure {width: 100%;}
-} 
+}
