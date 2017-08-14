@@ -1,0 +1,107 @@
+body {
+   background: url(../images/bg-principal.png) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: 100% 100%;
+}
+
+
+.page-center {
+  position: fixed !important;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+.navbar-easy-tour {
+  background-color: #7a9f1f;  /*  Cor da barra do menu */
+  border-color: #577a00;  /*  Cor da borda da barra do menu */
+}
+
+
+.navbar-easy-tour .navbar-toggle .icon-bar {
+  background-color: red;
+}
+
+
+.navbar-easy-tour .navbar-brand {
+  color: #fff;  /*  Cor do texto da barra do menu */
+}
+
+.navbar-easy-tour .navbar-nav > li > a {
+  color: #fff;  /*  Cor do texto das opções da barra do menu */
+}
+
+.navbar-easy-tour .navbar-nav > li > a:hover,
+.navbar-easy-tour .navbar-nav > li > a:focus {
+  color: #fff;  /*  Cor do texto das opções da barra do menu */
+  background-color: #577a00;
+}
+
+.navbar-easy-tour .navbar-nav > .active > a,
+.navbar-easy-tour .navbar-nav > .active > a:hover,
+.navbar-easy-tour .navbar-nav > .active > a:focus {
+  color: #fff;  /*  Cor do texto ativo das opções da barra do menu */
+  background-color: #577a00;
+}
+
+.navbar-easy-tour .navbar-toggle {
+  border-color: #7a9f1f;  /*  Cor da borda da barra do menu sandwich */
+}
+
+.navbar-easy-tour .navbar-toggle:hover,
+.navbar-easy-tour .navbar-toggle:focus {
+  background-color: #577a00;  /*  Cor do sandwich ao passar o mouse em cima */
+}
+
+.navbar-easy-tour .navbar-toggle .icon-bar {
+  background-color: #fff;  /*  Cor do sandwich */
+}
+
+.navbar-easy-tour .navbar-collapse,
+.navbar-easy-tour .navbar-form {
+  border-color: #577a00;  /*  Cor da borda de separação do menu */
+}
+
+
+
+
+.navbar-brand-icone {
+  float: left;
+  padding: 0px 10px 0px 0px;
+  margin-left: 0px;  
+}
+
+
+.navbar-brand-icone-play {
+  float: left;
+  padding: 0px 0px 0px 15px;
+  margin-left: 0px;  
+}
+
+
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 15px 0px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+
+
+.navbar-nav {
+  margin: 0px -15px;
+}
+
+
+
+
+.espaco {
+	padding-bottom: 10px;
+}
+
